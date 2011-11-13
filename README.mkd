@@ -26,9 +26,9 @@ If you decide not to use external parameters replace `%database.host%`, `%databa
          user:     %database_user%
          password: %database_password%
 ```
-After changing the files push your application to github then go to pagodabox.com and create an application with a [database](http://guides.pagodabox.com/database/creating-a-database)
+After changing the files push your application to github then go to pagodabox.com and create an application with a [database](http://help.pagodabox.com/customer/portal/articles/175426-creating-a-database)
 
-(External Parameters) Go to you application global vars in the pagodabox dash board and add the following variables using your database infomation
+(External Parameters) Go to you application global vars in the pagodabox dashboard and add the following variables using your database infomation
 
 ``` ini
          SYMFONY__DATABASE__HOST
@@ -37,7 +37,7 @@ After changing the files push your application to github then go to pagodabox.co
          SYMFONY__DATABASE__PASSWORD
 
 ```
-After you have do this you will need to create a [tunnel](http://guides.pagodabox.com/database/creating-database-tunnel) to connect to your database
+After you have do this you will need to create a [tunnel](http://help.pagodabox.com/customer/portal/articles/175427-creating-a-secure-database-tunnel-from-your-desktop) to connect to your database
 
 if  you are using external parameters you will need to change` app/config/parameters.ini` to your database infomation(dont push changes to github)
 
